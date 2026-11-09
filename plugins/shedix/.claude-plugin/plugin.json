@@ -1,0 +1,23 @@
+{
+  "name": "shedix",
+  "description": "Cloud Linux machines for Claude Code, Codex and other coding agents: full Ubuntu with root and Docker, keeps working after your laptop closes, sleeps when idle. shedix.dev",
+  "version": "2026.11.6",
+  "author": {
+    "name": "shedix",
+    "email": "hello@shedix.dev",
+    "url": "https://shedix.dev"
+  },
+  "homepage": "https://shedix.dev/skills",
+  "repository": "https://github.com/shedix-dev/skills",
+  "keywords": [
+    "cloud",
+    "vm",
+    "linux",
+    "ubuntu",
+    "remote",
+    "claude-code",
+    "codex",
+    "agents",
+    "sandbox"
+  ]
+}

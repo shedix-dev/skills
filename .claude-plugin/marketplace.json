@@ -1,0 +1,12 @@
+{
+  "name": "shedix",
+  "description": "Cloud Linux machines for Claude Code, Codex and other coding agents: full Ubuntu with root and Docker, keeps working after your laptop closes, sleeps when idle. shedix.dev",
+  "owner": { "name": "shedix", "email": "hello@shedix.dev", "url": "https://shedix.dev" },
+  "plugins": [
+    {
+      "name": "shedix",
+      "source": "./plugins/shedix",
+      "description": "Start and drive shedix cloud Linux machines from your agent: move or fork this session to a machine so you can close the laptop, run work in parallel, or test on a fresh Ubuntu box."
+    }
+  ]
+}
