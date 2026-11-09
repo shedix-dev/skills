@@ -147,7 +147,7 @@ def drop(f):
     try: os.remove(f)
     except OSError: pass
 def post(path, body):
-    # Cloudflare refuses Python's default User-Agent (error 1010), so name this helper
+    # The API refuses Python's default User-Agent (error 1010), so name this helper
     req = urllib.request.Request(URL + path, json.dumps(body).encode(), {"Content-Type": "application/json", "User-Agent": "shedix-agent/1 (key.py)"})
     try:
         with urllib.request.urlopen(req, timeout=30) as r: return r.status, json.load(r)
